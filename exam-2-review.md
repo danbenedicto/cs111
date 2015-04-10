@@ -30,7 +30,7 @@ int[][] numbers = new int[n][m];
 declaring/initializing a 2D array with literals:
 
 ```java
-int[][] numbers = {{1,2,3}, {4,5,6}}
+int[][] numbers = {{1,2,3}, {4,5,6}};
 // numbers[1]    => {4,5,6}
 // numbers[1][0] => 4
 ```
