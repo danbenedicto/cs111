@@ -98,6 +98,8 @@ Commonly used String methods:
 `boolean equals(String anotherString)` for comparison, not `==`
 - ways to check for empty string: `s.isEmpty()` or `s.equals("")` or `s.length() == 0`
 
+`boolean startsWith(String prefix)`
+
 `int compareTo(String anotherString)` (maybe)
 
 String concatenation:
