@@ -3,19 +3,19 @@ public class ComplexDriver {
 		System.out.println("Enter the real part:");
 		int real = IO.readInt();
 
-		System.out.println("Enter the complex part:");
-		int complex = IO.readInt();
+		System.out.println("Enter the imaginary part:");
+		int imag = IO.readInt();
 
 		ComplexNumber cn = new ComplexNumber();
 
 		cn.real = real;
-		cn.complex = complex;
+		cn.imaginary = imag;
 
 		ComplexNumber cn2 = new ComplexNumber();
 		cn2.real = 5;
-		cn2.complex = 10;
+		cn2.imaginary = 10;
 
 		ComplexNumber sum = cn.add(cn2);
-		sum.printString();
+		sum.print();
 	}
 }
