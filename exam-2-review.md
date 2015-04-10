@@ -89,14 +89,10 @@ Commonly used String methods:
 
 `char charAt(int index)`
 
-`String substring(int beginIndex, int endIndex)`
+`String substring(int beginIndex, int endIndex)` and `String substring(int beginIndex)`
 ```java
-"applee".substring(2, 4)  // "pl"
-```
-
-`String substring(int beginIndex)`
-```java
-"applee".substring(2)     // "plee"
+"program".substring(2, 4)  // "og"
+"program".substring(2)     // "ogram"
 ```
 
 `int length()` (note that this needs parentheses unlike for arrays)
