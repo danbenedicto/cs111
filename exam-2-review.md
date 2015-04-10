@@ -1,5 +1,11 @@
 # CS 111 - Exam 2 Review
 
+Here's a list of things you should probably know for the second midterm.
+Realize, though, that these are just tools, and knowing these alone doesn't
+guarantee exam success. The exams ultimately test your problem solving
+abilities, which come from practice. I suggest you try the practice problems
+on Sakai.
+
 ## Arrays
 
 declaring/initializing a 1D array:
